@@ -1,0 +1,143 @@
+#!/bin/bash
+# Filename: lang_spn - coded in utf-8
+
+#                     LogAnalysis for DSM 7
+#
+#        Copyright (C) 2025 by Tommes | License GNU GPLv3
+#        Member from the  German Synology Community Forum
+#
+# Extract from  GPL3   https://www.gnu.org/licenses/gpl-3.0.html
+#                                     ...
+# This program is free software: you can redistribute it  and/or
+# modify it under the terms of the GNU General Public License as
+# published by the Free Software Foundation, either version 3 of
+# the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#
+# See the GNU General Public License for more details.You should
+# have received a copy of the GNU General Public  License  along
+# with this program. If not, see http://www.gnu.org/licenses/  !
+
+
+
+# Global language variables
+# --------------------------------------------------------------
+btnCreateNow="Crear ahora"
+btnDeleteNow="Eliminar ahora"
+btnStartSearching="Iniciar búsqueda..."
+btnUnderstood="Entendido"
+btnCancel="Cancelar"
+btnBack="Atrás"
+btnSettings="Configuración"
+btnReset="Restablecer"
+btnOpen="Abrir"
+btnClose="Cerrar"
+btnHistoryBack="<a href=\"javascript:history.back()\" class=\"btn btn-secondary btn-sm\">${btnBack}</a>"
+
+txt_link_help="Ayuda"
+txt_link_folder="Directorio"
+txt_link_system_settings="Configuración del sistema"
+txt_link_settings="Configuración"
+txt_link_expand_permissions="Ampliar permisos de la aplicación"
+txt_link_revoke_permissions="Revocar permisos de la aplicación"
+txt_button_extend_permission="Ampliar permiso"
+txt_button_revoke_permission="Revocar permiso"
+
+txt_group_status="Estado de permisos de la aplicación"
+txt_group_status_false="${app_name} solo tiene permisos <span class=\"text-danger\">limitados</span> de aplicación o sistema."
+
+txtAlertSystemError="¡Error del sistema!"
+txtAlertInputError="¡Error de entrada!"
+txtAlertInputConfirmation="¡Confirmación de entrada!"
+txtAlertProcessingError="¡Ha ocurrido un error durante el procesamiento! Por favor, repita el proceso."
+txtAlertAccessDenied_step1="El acceso a la carpeta"
+txtAlertAccessDenied_step2="fue denegado porque se encuentra fuera de la carpeta <strong class=\"text-success\">/var/log</strong>."
+txtAlertOnlyAdmin="El acceso al contenido de LogAnalysis solo está permitido a usuarios del grupo de administradores."
+txt_update_available="Una nueva <span class=\"text-success fst-italic\">actualización</span> está disponible en GitHub."
+txt_update_from="Por favor, actualice su versión de ${app_name}"
+txt_update_to="a la versión"
+
+# Hinweis Erweitern von Berechtigungen
+# --------------------------------------------------------------
+txt_help_permissions_Note="Permiso de aplicación"
+txt_help_permissions_expand_terminal="Ampliar permisos de la aplicación usando la consola"
+txt_help_permissions_revoke_terminal="Revocar permisos de la aplicación por consola"
+txt_help_permissions_expand_dsm="Ampliar permisos de la aplicación por el Programador de tareas DSM"
+txt_help_permissions_revoke_dsm="Revocar permisos de la aplicación por el Programador de tareas DSM"
+txt_help_permissions_step_1="Inicie sesión en la consola de su DiskStation como usuario <span class=\"text-danger fst-italic\">root</span> y ejecute el siguiente comando"
+txt_help_permissions_step_2="En DSM bajo <span class=\"text-danger fst-italic\">Menú principal</span> > <span class=\"text-danger fst-italic\">Panel de control</span> abra el <span class=\"text-danger fst-italic\">Programador de tareas</span>."
+txt_help_permissions_step_3="En el programador de tareas, use <span class=\"text-danger fst-italic\">Crear</span> > <span class=\"text-danger fst-italic\">Tarea programada</span> > <span class=\"text-danger fst-italic\">Script personalizado</span>."
+txt_help_permissions_step_4="En la ventana emergente que se abre, ingrese <span class=\"text-danger fst-italic\">General</span> > <span class=\"text-danger fst-italic\">Configuración general</span> para la tarea y seleccione <span class=\"text-danger fst-italic\">root</span> como usuario. Luego desmarque <span classS=\"text-danger fst-italic\">Habilitado</span>."
+txt_help_permissions_step_5="En la pestaña <span class=\"text-danger fst-italic\">Configuración de tarea</span> > <span class=\"text-danger fst-italic\">Ejecutar comando</span> > <span class=\"text-danger fst-italic\">Script personalizado</span> ingrese el siguiente comando en el campo de texto..."
+txt_help_permissions_step_6="Confirme sus entradas con el botón <span class=\"text-danger fst-italic\">OK</span> y también acepte el mensaje de advertencia siguiente con <span class=\"text-danger fst-italic\">OK</span>."
+txt_help_permissions_step_7="Para que la tarea se añada al programador de tareas, debe finalmente introducir la contraseña del usuario actualmente conectado al DSM y confirmar el proceso con el botón <span class=\"text-danger fst-italic\">Enviar</span>."
+txt_help_permissions_step_8="En la vista general del programador de tareas, debe ahora <span class=\"text-danger fst-italic\">resaltar</span> la tarea recién creada con el ratón (la línea debería tener un fondo azul después de resaltarla), sin embargo <span class=\"text-decoration-underline\">no marque</span> la casilla para activar la tarea permanentemente."
+txt_help_permissions_step_9="Ahora ejecute la tarea una vez presionando el botón <span class=\"text-danger fst-italic\">Ejecutar</span>."
+txt_help_permissions_step_10="Cierre y vuelva a entrar en ${app_name} para que los cambios surtan efecto."
+
+# Hilfe Ordnerstruktur
+# --------------------------------------------------------------
+txtDisplayFolderContent="Está aquí..."
+txtHelp="Ayuda y consejos"
+txtHelpHeader="Explicación de símbolos"
+txtBtnReset="Restablecer búsqueda y mostrar página inicial"
+txtFileOpen="Este archivo es legible y escribible"
+txtFolderWithContent="Este directorio contiene otros datos legibles"
+txtFolderWithoutContent="Este directorio está vacío o inaccesible"
+txtFileIsArchive="Este archivo es inaccesible"
+txtFileNoReadingRights="Este archivo no es legible"
+txtFileNoWritingRights="Este archivo es solo legible"
+
+# Suchformular
+# --------------------------------------------------------------
+txtSearchForTerms="Buscar en el archivo términos, una fecha y/o una hora"
+txtSearch="Buscar"
+txtSearchingFor="Introducir texto de búsqueda..."
+txtCaseSensitive="Distinguir mayúsculas y minúsculas"
+txtDay="Día"
+txtMonth="Mes"
+txtYear="Año"
+txtHour="Hora"
+txtMinute="Minuto"
+txtUseDate="Búsqueda por fecha"
+txtUseTime="Búsqueda por hora"
+
+# Ausgabe
+# --------------------------------------------------------------
+txtSearchResult="Resultado de búsqueda"
+txtSearchResultFolder="LogAnalysis - Resultado de búsqueda de la carpeta"
+txtSearchResultFile="LogAnalysis - Resultado de búsqueda del archivo"
+txtViewFile="LogAnalysis - Mostrando el contenido del archivo"
+txtFolder="de la carpeta"
+txtFile="del archivo"
+txtFileContent="Contenido del archivo"
+txtWithLineBreaks="La salida contiene saltos de línea"
+txtWhitoutLineBreaks="Salida sin saltos de línea"
+txtDeleteFileContent="Eliminar contenido del archivo"
+txtNoMatches="¡Sin coincidencias!"
+txtFileIsEmpty="¡Archivo vacío!"
+txtHitInLine="Coincidencia en línea"
+txtHitIn="Coincidencia en"
+txtLine="línea"
+txtAlertInputConfirmation="¡Confirmación de entrada!"
+txtAlertClearEntry="¿Realmente desea eliminar el contenido del archivo?"
+# settings.sh
+# --------------------------------------------------------------
+txt_folder_title="Configuración de directorios"
+txt_folder_access="Ocultar directorios vacíos o inaccesibles"
+txt_file_title="Configuración de archivos"
+txt_file_access="Ocultar archivos que son un archivo comprimido o inaccesibles"
+txt_folder_attributes="Mostrar asignación de memoria de directorios"
+txt_file_attributes="Ver uso de memoria y tiempo de última modificación de un archivo"
+txt_debug_title="Modo de depuración - Opciones de análisis de errores"
+txt_debug_mode_on="Habilitar consola de depuración"
+txt_debug_mode_off="Deshabilitar consola de depuración"
+txt_debug_membership="Membresía(s) de grupo de la aplicación"
+txt_debug_requests="Métodos de solicitud GET y POST"
+txt_debug_get="Método de solicitud GET"
+txt_debug_post="Método de solicitud POST"
+txt_debug_global="Variables globales de entorno"
+

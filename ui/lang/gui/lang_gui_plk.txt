@@ -1,0 +1,142 @@
+#!/bin/bash
+# Filename: lang_plk - coded in utf-8
+
+#                     LogAnalysis for DSM 7
+#
+#        Copyright (C) 2025 by Tommes | License GNU GPLv3
+#        Member from the  German Synology Community Forum
+#
+# Extract from  GPL3   https://www.gnu.org/licenses/gpl-3.0.html
+#                                     ...
+# This program is free software: you can redistribute it  and/or
+# modify it under the terms of the GNU General Public License as
+# published by the Free Software Foundation, either version 3 of
+# the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#
+# See the GNU General Public License for more details.You should
+# have received a copy of the GNU General Public  License  along
+# with this program. If not, see http://www.gnu.org/licenses/  !
+
+
+
+# Global language variables
+# --------------------------------------------------------------
+btnCreateNow="Utwórz teraz"
+btnDeleteNow="Usuń teraz"
+btnStartSearching="Rozpocznij wyszukiwanie..."
+btnUnderstood="Zrozumiano"
+btnCancel="Anuluj"
+btnBack="Powrót"
+btnSettings="Ustawienia"
+btnReset="Reset"
+btnOpen="Otwórz"
+btnClose="Zamknij"
+btnHistoryBack="<a href=\"javascript:history.back()\" class=\"btn btn-secondary btn-sm\">${btnBack}</a>"
+
+txt_link_help="Pomoc"
+txt_link_folder="Katalog"
+txt_link_system_settings="Ustawienia systemowe"
+txt_link_settings="Ustawienia"
+txt_link_expand_permissions="Rozszerz uprawnienia aplikacji"
+txt_link_revoke_permissions="Cofnij uprawnienia aplikacji"
+txt_button_extend_permission="Rozszerz uprawnienia"
+txt_button_revoke_permission="Cofnij uprawnienia"
+
+txt_group_status="Status uprawnień aplikacji"
+txt_group_status_false="${app_name} only has <span class=\"text-danger\">ograniczone</span> app or system permissions."
+
+txtAlertSystemError="Błąd systemu!"
+txtAlertInputError="Błąd wprowadzania!"
+txtAlertInputConfirmation="Potwierdzenie wprowadzania!"
+txtAlertProcessingError="Wystąpił błąd podczas przetwarzania! Proszę powtórzyć proces."
+txtAlertAccessDenied_step1="Dostęp do folderu"
+txtAlertAccessDenied_step2="został odmówiony, ponieważ znajduje się poza folderem <strong class=\"text-success\">/var/log</strong>."
+txtAlertOnlyAdmin="Dostęp do zawartości LogAnalysis jest dozwolony tylko dla użytkowników z grupy administratorów."
+txt_update_available="Nowa <span class=\"text-success fst-italic\">aktualizacja</span> jest dostępna na GitHub."
+txt_update_from="Proszę zaktualizować swoją ${app_name} version"
+txt_update_to="do wersji"
+
+# Hinweis Erweitern von Berechtigungen
+# --------------------------------------------------------------
+txt_help_permissions_Note="Uprawnienia aplikacji"
+txt_help_permissions_expand_terminal="Rozszerz uprawnienia aplikacji przez konsolę"
+txt_help_permissions_revoke_terminal="Cofnij uprawnienia aplikacji przez konsolę"
+txt_help_permissions_expand_dsm="Rozszerz uprawnienia aplikacji przez Harmonogram zadań DSM"
+txt_help_permissions_revoke_dsm="Cofnij uprawnienia aplikacji przez Harmonogram zadań DSM"
+txt_help_permissions_step_1="Zaloguj się do konsoli DiskStation jako użytkownik <span class=\"text-danger fst-italic\">root</span> i uruchom następujące polecenie"
+txt_help_permissions_step_2="W DSM pod <span class=\"text-danger fst-italic\">Menu główne</span> > <span class=\"text-danger fst-italic\">Panel sterowania</span> otwórz <span class=\"text-danger fst-italic\">Harmonogram zadań</span>."
+txt_help_permissions_step_3="W harmonogramie zadań użyj <span class=\"text-danger fst-italic\">Utwórz</span> > <span class=\"text-danger fst-italic\">Zaplanowane zadanie</span> > <span class=\"text-danger fst-italic\">Własny skrypt</span>."
+txt_help_permissions_step_4="W otwartym oknie popup wprowadź <span class=\"text-danger fst-italic\">Ogólne</span> > <span class=\"text-danger fst-italic \">Ustawienia ogólne</span> dla zadania i wybierz <span class=\"text-danger fst-italic\">root</span> jako użytkownika. Następnie odznacz <span classS=\"text-danger fst-italic\">Włączone</span>."
+txt_help_permissions_step_5="W zakładce <span class=\"text-danger fst-italic\">Ustawienia zadania</span> > <span class=\"text-danger fst-italic\">Wykonaj polecenie</span> > <span class=\"text-danger fst-italic\">Własny skrypt</span> wprowadź następujące polecenie w polu tekstowym..."
+txt_help_permissions_step_6="Potwierdź swoje wpisy przyciskiem <span class=\"text-danger fst-italic\">OK</span> i zaakceptuj następny komunikat ostrzegawczy przyciskiem <span class=\"text-danger fst-italic\">OK</span>."
+txt_help_permissions_step_7="Aby zadanie zostało dodane do harmonogramu zadań, musisz na końcu wprowadzić hasło użytkownika aktualnie zalogowanego w DSM i potwierdzić proces przyciskiem <span class=\"text-danger fst-italic\">Wyślij</span>."
+txt_help_permissions_step_8="W przeglądzie harmonogramu zadań musisz teraz <span class=\"text-danger fst-italic\">podświetlić</span> właśnie utworzone zadanie myszką (linia powinna mieć niebieskie tło po podświetleniu), jednak <span class=\"text-decoration-underline\">nie zaznaczaj</span> pola wyboru, aby aktywować zadanie na stałe."
+txt_help_permissions_step_9="Teraz uruchom zadanie jednokrotnie naciskając przycisk <span class=\"text-danger fst-italic\">Uruchom</span>."
+txt_help_permissions_step_10="Zamknij i ponownie uruchom ${app_name} aby zmiany zaczęły obowiązywać."
+
+# Hilfe Ordnerstruktur
+# --------------------------------------------------------------
+txtDisplayFolderContent="Jesteś tutaj..."
+txtHelp="Pomoc i wskazówki"
+txtHelpHeader="Objaśnienie symboli"
+txtBtnReset="Resetuj wyszukiwanie i pokaż stronę startową"
+txtFileOpen="Ten plik jest dostępny do odczytu i zapisu"
+txtFolderWithContent="Ten katalog zawiera inne dane dostępne do odczytu"
+txtFolderWithoutContent="Ten katalog jest pusty lub niedostępny"
+txtFileIsArchive="To archiwum jest niedostępne"
+txtFileNoReadingRights="Ten plik nie jest dostępny do odczytu"
+txtFileNoWritingRights="Ten plik jest dostępny tylko do odczytu"
+
+# Suchformular
+# --------------------------------------------------------------
+txtSearchForTerms="Przeszukaj plik i znajdź terminy, datę i/lub czas"
+txtSearch="Szukaj"
+txtSearchingFor="Wprowadź wyszukiwany tekst..."
+txtCaseSensitive="Uwzględnij wielkość liter"
+txtDay="Dzień"
+txtMonth="Miesiąc"
+txtYear="Rok"
+txtHour="Godzina"
+txtMinute="Minuta"
+txtUseDate="Wyszukiwanie daty"
+txtUseTime="Wyszukiwanie czasu"
+
+# Ausgabe
+# --------------------------------------------------------------
+txtSearchResult="Wynik wyszukiwania"
+txtSearchResultFolder="LogAnalysis - Wynik wyszukiwania w folderze"
+txtSearchResultFile="LogAnalysis - Wynik wyszukiwania w pliku"
+txtViewFile="LogAnalysis - Wyświetlanie zawartości pliku"
+txtFolder="folderu"
+txtFile="pliku"
+txtFileContent="Zawartość pliku"
+txtWithLineBreaks="Wynik zawiera podziały wierszy"
+txtWhitoutLineBreaks="Wynik bez podziałów wierszy"
+txtDeleteFileContent="Usuń zawartość pliku"
+txtNoMatches="Brak wyników!"
+txtFileIsEmpty="Plik jest pusty!"
+txtHitInLine="Trafienie w linii"
+txtHitIn="Trafienie w"
+txtLine="linii"
+txtAlertClearEntry="Czy na pewno usunąć zawartość pliku?"
+# settings.sh
+# --------------------------------------------------------------
+txt_folder_title="Ustawienia katalogów"
+txt_folder_access="Ukryj katalogi, które są puste lub niedostępne"
+txt_file_title="Ustawienia plików"
+txt_file_access="Ukryj pliki, które są archiwami lub są niedostępne"
+txt_folder_attributes="Pokaż przydzieloną pamięć katalogów"
+txt_file_attributes="Pokaż użycie pamięci i czas ostatniej modyfikacji pliku"
+txt_debug_title="Tryb debugowania - Opcje analizy błędów"
+txt_debug_mode_on="Włącz konsolę debugowania"
+txt_debug_mode_off="Wyłącz konsolę debugowania"
+txt_debug_membership="Członkostwo w grupach aplikacji"
+txt_debug_requests="Metody żądań GET i POST"
+txt_debug_get="Metoda żądania GET"
+txt_debug_post="Metoda żądania POST"
+txt_debug_global="Globalne zmienne środowiskowe"
+
