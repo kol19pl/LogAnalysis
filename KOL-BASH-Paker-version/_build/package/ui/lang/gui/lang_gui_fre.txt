@@ -1,0 +1,143 @@
+#!/bin/bash
+# Filename: lang_fre - coded in utf-8
+
+#                     LogAnalysis for DSM 7
+#
+#        Copyright (C) 2025 by Tommes | License GNU GPLv3
+#        Member from the  German Synology Community Forum
+#
+# Extract from  GPL3   https://www.gnu.org/licenses/gpl-3.0.html
+#                                     ...
+# This program is free software: you can redistribute it  and/or
+# modify it under the terms of the GNU General Public License as
+# published by the Free Software Foundation, either version 3 of
+# the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#
+# See the GNU General Public License for more details.You should
+# have received a copy of the GNU General Public  License  along
+# with this program. If not, see http://www.gnu.org/licenses/  !
+
+
+# Global language variables
+# --------------------------------------------------------------
+btnCreateNow="Créer maintenant"
+btnDeleteNow="Supprimer maintenant"
+btnStartSearching="Commencer la recherche..."
+btnUnderstood="Compris"
+btnCancel="Annuler"
+btnBack="Retour"
+btnSettings="Paramètres"
+btnReset="Réinitialiser"
+btnOpen="Ouvrir"
+btnClose="Fermer"
+btnHistoryBack="<a href=\"javascript:history.back()\" class=\"btn btn-secondary btn-sm\">${btnBack}</a>"
+
+txt_link_help="Aide"
+txt_link_folder="Répertoire"
+txt_link_system_settings="Paramètres système"
+txt_link_settings="Paramètres"
+txt_link_expand_permissions="Étendre les permissions de l'application"
+txt_link_revoke_permissions="Révoquer les permissions de l'application"
+txt_button_extend_permission="Étendre les permissions"
+txt_button_revoke_permission="Révoquer les permissions"
+
+txt_group_status="État des permissions de l'application"
+txt_group_status_false="${app_name} ne dispose que de permissions <span class="text-danger">limitées</span> pour l'application ou le système."
+
+txtAlertSystemError="Erreur système !"
+txtAlertInputError="Erreur de saisie !"
+txtAlertInputConfirmation="Confirmation de saisie !"
+txtAlertProcessingError="Une erreur s'est produite pendant le traitement ! Veuillez répéter le processus."
+txtAlertAccessDenied_step1="L'accès au dossier"
+txtAlertAccessDenied_step2="a été refusé car il se trouve en dehors du dossier <strong class=\"text-success\">/var/log</strong>."
+txtAlertOnlyAdmin="L'accès au contenu de LogAnalysis est uniquement autorisé aux utilisateurs du groupe administrateurs."
+txt_update_available="Une nouvelle <span class=\"text-success fst-italic\">mise à jour</span> est disponible sur GitHub."
+txt_update_from="Veuillez mettre à jour votre ${app_name} version"
+txt_update_to="vers la version"
+
+# Hinweis Erweitern von Berechtigungen
+# --------------------------------------------------------------
+txt_help_permissions_Note="Permission de l'application"
+txt_help_permissions_expand_terminal="Étendre les permissions de l'application via la console"
+txt_help_permissions_revoke_terminal="Révoquer les permissions de l'application via la console"
+txt_help_permissions_expand_dsm="Étendre les permissions de l'application via le Planificateur de tâches DSM"
+txt_help_permissions_revoke_dsm="Révoquer les permissions de l'application via le Planificateur de tâches DSM"
+txt_help_permissions_step_1="Connectez-vous à la console de votre DiskStation en tant qu'utilisateur <span class=\"text-danger fst-italic\">root</span> et exécutez la commande suivante"
+txt_help_permissions_step_2="Dans DSM sous <span class=\"text-danger fst-italic\">Menu principal</span> > <span class=\"text-danger fst-italic\">Panneau de configuration</span> ouvrez le <span class=\"text-danger fst-italic\">Planificateur de tâches</span>."
+txt_help_permissions_step_3="Dans le planificateur de tâches, utilisez <span class=\"text-danger fst-italic\">Créer</span> > <span class=\"text-danger fst-italic\">Tâche planifiée</span> > <span class=\"text-danger fst-italic\">Script personnalisé</span>."
+txt_help_permissions_step_4="Dans la fenêtre qui s'ouvre, entrez <span class=\"text-danger fst-italic\">Général</span> > <span class=\"text-danger fst-italic \">Paramètres généraux</span> pour la tâche et sélectionnez <span class=\"text-danger fst-italic\">root</span> comme utilisateur. Puis décochez <span classS=\"text-danger fst-italic\">Activé</span>."
+txt_help_permissions_step_5="Dans l'onglet <span class=\"text-danger fst-italic\">Paramètres de la tâche</span> > <span class=\"text-danger fst-italic\">Exécuter la commande</span> > <span class=\"text-danger fst-italic\">Script personnalisé</span> entrez la commande suivante dans le champ de texte..."
+txt_help_permissions_step_6="Confirmez vos entrées avec le bouton <span class=\"text-danger fst-italic\">OK</span> et acceptez également le message d'avertissement suivant avec <span class=\"text-danger fst-italic\">OK</span>."
+txt_help_permissions_step_7="Pour que la tâche soit ajoutée au planificateur de tâches, vous devez enfin saisir le mot de passe de l'utilisateur actuellement connecté au DSM et confirmer le processus avec le bouton <span class=\"text-danger fst-italic\">Envoyer</span>."
+txt_help_permissions_step_8="Dans l'aperçu du planificateur de tâches, vous devez maintenant <span class=\"text-danger fst-italic\">mettre en surbrillance</span> la tâche que vous venez de créer avec la souris (la ligne doit avoir un fond bleu après la mise en surbrillance), cependant <span class=\"text-decoration-underline\">ne cochez pas</span> la case pour activer la tâche de façon permanente."
+txt_help_permissions_step_9="Exécutez maintenant la tâche une fois en appuyant sur le bouton <span class=\"text-danger fst-italic\">Exécuter</span>."
+txt_help_permissions_step_10="Fermez et rouvrez ${app_name} pour que les changements prennent effet."
+
+# Hilfe Ordnerstruktur
+# --------------------------------------------------------------
+txtDisplayFolderContent="Vous êtes ici..."
+txtHelp="Aide et conseils"
+txtHelpHeader="Explication des symboles"
+txtBtnReset="Réinitialiser la recherche et afficher la page d'accueil"
+txtFileOpen="Ce fichier est accessible en lecture et écriture"
+txtFolderWithContent="Ce répertoire contient d'autres données lisibles"
+txtFolderWithoutContent="Ce répertoire est vide ou inaccessible"
+txtFileIsArchive="Cette archive est inaccessible"
+txtFileNoReadingRights="Ce fichier n'est pas lisible"
+txtFileNoWritingRights="Ce fichier est accessible uniquement en lecture"
+
+# Suchformular
+# --------------------------------------------------------------
+txtSearchForTerms="Rechercher dans le fichier des termes, une date et/ou une heure"
+txtSearch="Rechercher"
+txtSearchingFor="Saisir le texte à rechercher..."
+txtCaseSensitive="Sensible à la casse"
+txtUseDate="Recherche par date"
+txtDay="Jour"
+txtMonth="Mois"
+txtYear="Année"
+txtHour="Heure"
+txtMinute="Minute"
+txtUseTime="Recherche par heure"
+
+# Ausgabe
+# --------------------------------------------------------------
+txtSearchResult="Résultat de la recherche"
+txtSearchResultFolder="LogAnalysis - Résultat de la recherche dans le dossier"
+txtSearchResultFile="LogAnalysis - Résultat de la recherche dans le fichier"
+txtViewFile="LogAnalysis - Affichage du contenu du fichier"
+txtFolder="du dossier"
+txtFile="du fichier"
+txtFileContent="Contenu du fichier"
+txtWithLineBreaks="La sortie contient des sauts de ligne"
+txtWhitoutLineBreaks="Sortie sans sauts de ligne"
+txtDeleteFileContent="Supprimer le contenu du fichier"
+txtNoMatches="Aucun résultat !"
+txtFileIsEmpty="Le fichier est vide !"
+txtHitInLine="Trouvé à la ligne"
+txtHitIn="Trouvé dans"
+txtLine="ligne"
+txtAlertInputConfirmation="Confirmation de saisie !"
+txtAlertClearEntry="Voulez-vous vraiment supprimer le contenu du fichier ?"
+# settings.sh
+# --------------------------------------------------------------
+txt_folder_title="Paramètres des répertoires"
+txt_folder_access="Masquer les répertoires vides ou inaccessibles"
+txt_file_title="Paramètres des fichiers"
+txt_file_access="Masquer les fichiers d'archive ou inaccessibles"
+txt_folder_attributes="Afficher l'allocation mémoire des répertoires"
+txt_file_attributes="Afficher l'utilisation mémoire et la date de dernière modification d'un fichier"
+txt_debug_title="Mode Debug - Options d'analyse des erreurs"
+txt_debug_mode_on="Activer la console de débogage"
+txt_debug_mode_off="Désactiver la console de débogage"
+txt_debug_membership="Appartenance(s) aux groupes de l'application"
+txt_debug_requests="Méthodes de requête GET & POST"
+txt_debug_get="Méthode de requête GET"
+txt_debug_post="Méthode de requête POST"
+txt_debug_global="Variables d'environnement globales"
+
+

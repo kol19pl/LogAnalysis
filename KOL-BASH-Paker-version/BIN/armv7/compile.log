@@ -1,0 +1,77 @@
+2025-03-28 05:01:00 In file included from /usr/arm-linux-gnueabihf/include/features.h:526,
+2025-03-28 05:01:00 from /usr/arm-linux-gnueabihf/include/sys/sysinfo.h:21,
+2025-03-28 05:01:00 from Source/LogAnalysis.c:3:
+2025-03-28 05:01:00 /usr/arm-linux-gnueabihf/include/gnu/stubs.h:7:11: fatal error: gnu/stubs-soft.h: No such file or directory
+2025-03-28 05:01:00 7 | # include <gnu/stubs-soft.h>
+2025-03-28 05:01:00 |           ^~~~~~~~~~~~~~~~~~
+2025-03-28 05:01:00 compilation terminated.
+2025-03-28 05:28:43 In file included from /usr/arm-linux-gnueabihf/include/features.h:526,
+2025-03-28 05:28:43 from /usr/arm-linux-gnueabihf/include/sys/sysinfo.h:21,
+2025-03-28 05:28:43 from Source/LogAnalysis.c:3:
+2025-03-28 05:28:43 /usr/arm-linux-gnueabihf/include/gnu/stubs.h:7:11: fatal error: gnu/stubs-soft.h: No such file or directory
+2025-03-28 05:28:43 7 | # include <gnu/stubs-soft.h>
+2025-03-28 05:28:43 |           ^~~~~~~~~~~~~~~~~~
+2025-03-28 05:28:43 compilation terminated.
+2025-03-28 05:30:34 In file included from /usr/arm-linux-gnueabihf/include/features.h:526,
+2025-03-28 05:30:34 from /usr/arm-linux-gnueabihf/include/sys/sysinfo.h:21,
+2025-03-28 05:30:34 from Source/LogAnalysis.c:3:
+2025-03-28 05:30:34 /usr/arm-linux-gnueabihf/include/gnu/stubs.h:7:11: fatal error: gnu/stubs-soft.h: No such file or directory
+2025-03-28 05:30:34 7 | # include <gnu/stubs-soft.h>
+2025-03-28 05:30:34 |           ^~~~~~~~~~~~~~~~~~
+2025-03-28 05:30:34 compilation terminated.
+2025-03-28 06:59:36 In file included from /usr/arm-linux-gnueabihf/include/features.h:526,
+2025-03-28 06:59:36 from /usr/arm-linux-gnueabihf/include/sys/sysinfo.h:21,
+2025-03-28 06:59:36 from Source/LogAnalysis.c:3:
+2025-03-28 06:59:36 /usr/arm-linux-gnueabihf/include/gnu/stubs.h:7:11: fatal error: gnu/stubs-soft.h: No such file or directory
+2025-03-28 06:59:36 7 | # include <gnu/stubs-soft.h>
+2025-03-28 06:59:36 |           ^~~~~~~~~~~~~~~~~~
+2025-03-28 06:59:36 compilation terminated.
+2025-03-28 07:40:29 In file included from /usr/arm-linux-gnueabihf/include/features.h:526,
+2025-03-28 07:40:29 from /usr/arm-linux-gnueabihf/include/sys/sysinfo.h:21,
+2025-03-28 07:40:29 from Source/LogAnalysis.c:3:
+2025-03-28 07:40:29 /usr/arm-linux-gnueabihf/include/gnu/stubs.h:7:11: fatal error: gnu/stubs-soft.h: No such file or directory
+2025-03-28 07:40:29 7 | # include <gnu/stubs-soft.h>
+2025-03-28 07:40:29 |           ^~~~~~~~~~~~~~~~~~
+2025-03-28 07:40:29 compilation terminated.
+2025-03-28 07:46:40 In file included from /usr/arm-linux-gnueabihf/include/features.h:526,
+2025-03-28 07:46:40 from /usr/arm-linux-gnueabihf/include/sys/sysinfo.h:21,
+2025-03-28 07:46:40 from Source/LogAnalysis.c:3:
+2025-03-28 07:46:40 /usr/arm-linux-gnueabihf/include/gnu/stubs.h:7:11: fatal error: gnu/stubs-soft.h: No such file or directory
+2025-03-28 07:46:40 7 | # include <gnu/stubs-soft.h>
+2025-03-28 07:46:40 |           ^~~~~~~~~~~~~~~~~~
+2025-03-28 07:46:40 compilation terminated.
+2025-03-28 09:27:18 In file included from /usr/arm-linux-gnueabihf/include/features.h:526,
+2025-03-28 09:27:18 from /usr/arm-linux-gnueabihf/include/sys/sysinfo.h:21,
+2025-03-28 09:27:18 from Source/LogAnalysis.c:3:
+2025-03-28 09:27:18 /usr/arm-linux-gnueabihf/include/gnu/stubs.h:7:11: fatal error: gnu/stubs-soft.h: No such file or directory
+2025-03-28 09:27:18 7 | # include <gnu/stubs-soft.h>
+2025-03-28 09:27:18 |           ^~~~~~~~~~~~~~~~~~
+2025-03-28 09:27:18 compilation terminated.
+2025-03-28 10:49:13 In file included from /usr/arm-linux-gnueabihf/include/features.h:526,
+2025-03-28 10:49:13 from /usr/arm-linux-gnueabihf/include/sys/sysinfo.h:21,
+2025-03-28 10:49:13 from Source/LogAnalysis.c:3:
+2025-03-28 10:49:13 /usr/arm-linux-gnueabihf/include/gnu/stubs.h:7:11: fatal error: gnu/stubs-soft.h: No such file or directory
+2025-03-28 10:49:13 7 | # include <gnu/stubs-soft.h>
+2025-03-28 10:49:13 |           ^~~~~~~~~~~~~~~~~~
+2025-03-28 10:49:13 compilation terminated.
+2025-03-28 10:50:22 In file included from /usr/arm-linux-gnueabihf/include/features.h:526,
+2025-03-28 10:50:22 from /usr/arm-linux-gnueabihf/include/sys/sysinfo.h:21,
+2025-03-28 10:50:22 from Source/LogAnalysis.c:3:
+2025-03-28 10:50:22 /usr/arm-linux-gnueabihf/include/gnu/stubs.h:7:11: fatal error: gnu/stubs-soft.h: No such file or directory
+2025-03-28 10:50:22 7 | # include <gnu/stubs-soft.h>
+2025-03-28 10:50:22 |           ^~~~~~~~~~~~~~~~~~
+2025-03-28 10:50:22 compilation terminated.
+2025-03-28 10:51:07 In file included from /usr/arm-linux-gnueabihf/include/features.h:526,
+2025-03-28 10:51:07 from /usr/arm-linux-gnueabihf/include/sys/sysinfo.h:21,
+2025-03-28 10:51:07 from Source/LogAnalysis.c:3:
+2025-03-28 10:51:07 /usr/arm-linux-gnueabihf/include/gnu/stubs.h:7:11: fatal error: gnu/stubs-soft.h: No such file or directory
+2025-03-28 10:51:07 7 | # include <gnu/stubs-soft.h>
+2025-03-28 10:51:07 |           ^~~~~~~~~~~~~~~~~~
+2025-03-28 10:51:07 compilation terminated.
+2025-03-28 10:54:49 In file included from /usr/arm-linux-gnueabihf/include/features.h:526,
+2025-03-28 10:54:49 from /usr/arm-linux-gnueabihf/include/sys/sysinfo.h:21,
+2025-03-28 10:54:49 from Source/LogAnalysis.c:3:
+2025-03-28 10:54:49 /usr/arm-linux-gnueabihf/include/gnu/stubs.h:7:11: fatal error: gnu/stubs-soft.h: No such file or directory
+2025-03-28 10:54:49 7 | # include <gnu/stubs-soft.h>
+2025-03-28 10:54:49 |           ^~~~~~~~~~~~~~~~~~
+2025-03-28 10:54:49 compilation terminated.

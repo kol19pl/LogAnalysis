@@ -1,0 +1,144 @@
+#!/bin/bash
+# Filename: lang_chs - coded in utf-8
+
+#                     LogAnalysis for DSM 7
+#
+#        Copyright (C) 2025 by Tommes | License GNU GPLv3
+#        Member from the  German Synology Community Forum
+#
+# Extract from  GPL3   https://www.gnu.org/licenses/gpl-3.0.html
+#                                     ...
+# This program is free software: you can redistribute it  and/or
+# modify it under the terms of the GNU General Public License as
+# published by the Free Software Foundation, either version 3 of
+# the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#
+# See the GNU General Public License for more details.You should
+# have received a copy of the GNU General Public  License  along
+# with this program. If not, see http://www.gnu.org/licenses/  !
+
+
+
+# Global language variables
+# --------------------------------------------------------------
+btnCreateNow="立即创建"
+btnDeleteNow="立即删除"
+btnStartSearching="开始搜索..."
+btnUnderstood="已了解"
+btnCancel="取消"
+btnBack="返回"
+btnSettings="设置"
+btnReset="重置"
+btnOpen="打开"
+btnClose="关闭"
+btnHistoryBack="<a href=\"javascript:history.back()\" class=\"btn btn-secondary btn-sm\">${btnBack}</a>"
+
+txt_link_help="帮助"
+txt_link_folder="目录"
+txt_link_system_settings="系统设置"
+txt_link_settings="设置"
+txt_link_expand_permissions="扩展应用权限"
+txt_link_revoke_permissions="撤销应用权限"
+txt_button_extend_permission="扩展权限"
+txt_button_revoke_permission="撤销权限"
+
+txt_group_status="应用权限状态"
+txt_group_status_false="${app_name} 仅具有<span class=\"text-danger\">有限的</span>应用或系统权限。"
+
+txtAlertSystemError="系统错误！"
+txtAlertInputError="输入错误！"
+txtAlertInputConfirmation="输入确认！"
+txtAlertProcessingError="处理过程中发生错误！请重复该过程。"
+txtAlertAccessDenied_step1="访问文件夹"
+txtAlertAccessDenied_step2="被拒绝，因为它位于<strong class=\"text-success\">/var/log</strong>文件夹外部。"
+txtAlertOnlyAdmin="只有管理员组的用户才能访问 LogAnalysis 的内容。"
+txt_update_available="GitHub 上有新的<span class=\"text-success fst-italic\">更新</span>可用。"
+txt_update_from="请更新您的 ${app_name} 版本"
+txt_update_to="到版本"
+
+# Hinweis Erweitern von Berechtigungen
+# --------------------------------------------------------------
+txt_help_permissions_Note="应用权限"
+txt_help_permissions_expand_terminal="使用控制台扩展应用权限"
+txt_help_permissions_revoke_terminal="通过控制台撤销应用权限"
+txt_help_permissions_expand_dsm="通过 DSM 任务计划程序扩展应用权限"
+txt_help_permissions_revoke_dsm="通过 DSM 任务计划程序撤销应用权限"
+txt_help_permissions_step_1="以用户 <span class=\"text-danger fst-italic\">root</span> 身份登录到您的 DiskStation 控制台并运行以下命令"
+txt_help_permissions_step_2="在 DSM 的<span class=\"text-danger fst-italic\">主菜单</span> > <span class=\"text-danger fst-italic\">控制面板</span>中打开<span class=\"text-danger fst-italic\">任务计划程序</span>。"
+txt_help_permissions_step_3="在任务计划程序中，使用<span class=\"text-danger fst-italic\">创建</span> > <span class=\"text-danger fst-italic\">计划任务</span> > <span class=\"text-danger fst-italic\">自定义脚本</span>。"
+txt_help_permissions_step_4="在打开的弹出窗口中，输入<span class=\"text-danger fst-italic\">常规</span> > <span class=\"text-danger fst-italic\">常规设置</span>作为任务设置并选择<span class=\"text-danger fst-italic\">root</span>作为用户。然后取消选中<span classS=\"text-danger fst-italic\">启用</span>。"
+txt_help_permissions_step_5="在<span class=\"text-danger fst-italic\">任务设置</span> > <span class=\"text-danger fst-italic\">执行命令</span> > <span class=\"text-danger fst-italic\">自定义脚本</span>标签页中在文本框中输入以下命令..."
+txt_help_permissions_step_6="用<span class=\"text-danger fst-italic\">确定</span>按钮确认您的输入，并接受随后的警告消息，点击<span class=\"text-danger fst-italic\">确定</span>。"
+txt_help_permissions_step_7="为了将任务添加到任务计划程序，您必须最后输入当前登录到 DSM 的用户密码，并用<span class=\"text-danger fst-italic\">发送</span>按钮确认该过程。"
+txt_help_permissions_step_8="在任务计划程序概览中，您现在必须用鼠标<span class=\"text-danger fst-italic\">高亮</span>刚创建的任务（高亮后该行应有蓝色背景），但是<span class=\"text-decoration-underline\">不要勾选</span>复选框来永久激活任务。"
+txt_help_permissions_step_9="现在通过按<span class=\"text-danger fst-italic\">运行</span>按钮一次性运行该任务。"
+txt_help_permissions_step_10="关闭并重新进入 ${app_name} 以使更改生效。"
+
+# Hilfe Ordnerstruktur
+# --------------------------------------------------------------
+txtDisplayFolderContent="您在这里..."
+txtHelp="帮助和提示"
+txtHelpHeader="符号说明"
+txtBtnReset="重置搜索并显示起始页"
+txtFileOpen="此文件可读写"
+txtFolderWithContent="此目录包含其他可读数据"
+txtFolderWithoutContent="此目录为空或无法访问"
+txtFileIsArchive="此存档无法访问"
+txtFileNoReadingRights="此文件不可读"
+txtFileNoWritingRights="此文件仅可读"
+
+# Suchformular
+# --------------------------------------------------------------
+txtSearchForTerms="搜索文件并查找术语、日期和/或时间"
+txtSearch="搜索"
+txtSearchingFor="输入搜索字符串..."
+txtCaseSensitive="区分大小写"
+txtDay="日"
+txtMonth="月"
+txtYear="年"
+txtHour="时"
+txtMinute="分"
+txtUseDate="日期搜索"
+txtUseTime="时间搜索"
+
+# Ausgabe
+# --------------------------------------------------------------
+txtSearchResult="搜索结果"
+txtSearchResultFolder="LogAnalysis - 文件夹搜索结果"
+txtSearchResultFile="LogAnalysis - 文件搜索结果"
+txtViewFile="LogAnalysis - 显示文件内容"
+txtFolder="文件夹"
+txtFile="文件"
+txtFileContent="文件内容"
+txtWithLineBreaks="输出包含换行符"
+txtWhitoutLineBreaks="输出不含换行符"
+txtDeleteFileContent="删除文件内容"
+txtNoMatches="没有匹配项！"
+txtFileIsEmpty="文件为空！"
+txtHitInLine="在行中找到"
+txtHitIn="找到于"
+txtLine="行"
+txtAlertInputConfirmation="输入确认！"
+txtAlertClearEntry="是否确实要删除文件内容？"
+
+# settings.sh
+# --------------------------------------------------------------
+txt_folder_title="目录设置"
+txt_folder_access="隐藏空目录或无法访问的目录"
+txt_file_title="文件设置"
+txt_file_access="隐藏存档文件或无法访问的文件"
+txt_folder_attributes="显示目录的内存分配"
+txt_file_attributes="查看文件的内存使用情况和最后修改时间"
+txt_debug_title="调试模式 - 错误分析选项"
+txt_debug_mode_on="启用调试控制台"
+txt_debug_mode_off="禁用调试控制台"
+txt_debug_membership="应用的组成员身份"
+txt_debug_requests="GET 和 POST 请求方法"
+txt_debug_get="GET 请求方法"
+txt_debug_post="POST 请求方法"
+txt_debug_global="全局环境变量"
+

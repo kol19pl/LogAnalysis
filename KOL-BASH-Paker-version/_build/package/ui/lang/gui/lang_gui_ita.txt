@@ -1,0 +1,144 @@
+#!/bin/bash
+# Filename: lang_ita - coded in utf-8
+
+#                     LogAnalysis for DSM 7
+#
+#        Copyright (C) 2025 by Tommes | License GNU GPLv3
+#        Member from the  German Synology Community Forum
+#
+# Extract from  GPL3   https://www.gnu.org/licenses/gpl-3.0.html
+#                                     ...
+# This program is free software: you can redistribute it  and/or
+# modify it under the terms of the GNU General Public License as
+# published by the Free Software Foundation, either version 3 of
+# the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#
+# See the GNU General Public License for more details.You should
+# have received a copy of the GNU General Public  License  along
+# with this program. If not, see http://www.gnu.org/licenses/  !
+
+
+
+# Global language variables
+# --------------------------------------------------------------
+btnCreateNow="Crea ora"
+btnDeleteNow="Elimina ora"
+btnStartSearching="Avvia ricerca..."
+btnUnderstood="Capito"
+btnCancel="Annulla"
+btnBack="Indietro"
+btnSettings="Impostazioni"
+btnReset="Reimposta"
+btnOpen="Apri"
+btnClose="Chiudi"
+btnHistoryBack="<a href=\"javascript:history.back()\" class=\"btn btn-secondary btn-sm\">${btnBack}</a>"
+
+txt_link_help="Aiuto"
+txt_link_folder="Directory"
+txt_link_system_settings="Impostazioni di sistema"
+txt_link_settings="Impostazioni"
+txt_link_expand_permissions="Espandi permessi dell'applicazione"
+txt_link_revoke_permissions="Revoca permessi dell'applicazione"
+txt_button_extend_permission="Estendi permesso"
+txt_button_revoke_permission="Revoca permesso"
+
+txt_group_status="Stato dei permessi dell'applicazione"
+txt_group_status_false="${app_name} ha solo permessi <span class=\"text-danger\">limitati</span> dell'applicazione o di sistema."
+
+txtAlertSystemError="Errore di sistema!"
+txtAlertInputError="Errore di input!"
+txtAlertInputConfirmation="Conferma input!"
+txtAlertProcessingError="Si è verificato un errore durante l'elaborazione! Si prega di ripetere il processo."
+txtAlertAccessDenied_step1="L'accesso alla cartella"
+txtAlertAccessDenied_step2="è stato negato perché si trova al di fuori della cartella <strong class=\"text-success\">/var/log</strong>."
+txtAlertOnlyAdmin="L'accesso ai contenuti di LogAnalysis è consentito solo agli utenti del gruppo amministratori."
+txt_update_available="Un nuovo <span class=\"text-success fst-italic\">aggiornamento</span> è disponibile su GitHub."
+txt_update_from="Si prega di aggiornare la versione di ${app_name}"
+txt_update_to="alla versione"
+
+# Hinweis Erweitern von Berechtigungen
+# --------------------------------------------------------------
+txt_help_permissions_Note="Permesso dell'applicazione"
+txt_help_permissions_expand_terminal="Espandi i permessi dell'applicazione usando la console"
+txt_help_permissions_revoke_terminal="Revoca i permessi dell'applicazione tramite console"
+txt_help_permissions_expand_dsm="Espandi i permessi dell'applicazione tramite Pianificazione attività DSM"
+txt_help_permissions_revoke_dsm="Revoca i permessi dell'applicazione tramite Pianificazione attività DSM"
+txt_help_permissions_step_1="Accedi alla console della tua DiskStation come utente <span class=\"text-danger fst-italic\">root</span> ed esegui il seguente comando"
+txt_help_permissions_step_2="In DSM sotto <span class=\"text-danger fst-italic\">Menu principale</span> > <span class=\"text-danger fst-italic\">Pannello di controllo</span> apri la <span class=\"text-danger fst-italic\">Pianificazione attività</span>."
+txt_help_permissions_step_3="Nella pianificazione attività, usa <span class=\"text-danger fst-italic\">Crea</span> > <span class=\"text-danger fst-italic\">Attività pianificata</span> > <span class=\"text-danger fst-italic\">Script personalizzato</span>."
+txt_help_permissions_step_4="Nella finestra popup che si apre, inserisci <span class=\"text-danger fst-italic\">Generale</span> > <span class=\"text-danger fst-italic \">Impostazioni generali</span> per l'attività e seleziona <span class=\"text-danger fst-italic\">root</span> come utente. Poi deseleziona <span classS=\"text-danger fst-italic\">Abilitato</span>."
+txt_help_permissions_step_5="Nella scheda <span class=\"text-danger fst-italic\">Impostazioni attività</span> > <span class=\"text-danger fst-italic\">Esegui comando</span> > <span class=\"text-danger fst-italic\">Script personalizzato</span> inserisci il seguente comando nel campo di testo..."
+txt_help_permissions_step_6="Conferma le tue immissioni con il pulsante <span class=\"text-danger fst-italic\">OK</span> e accetta anche il successivo messaggio di avviso con <span class=\"text-danger fst-italic\">OK</span>."
+txt_help_permissions_step_7="Affinché l'attività venga aggiunta alla pianificazione attività, devi infine inserire la password dell'utente attualmente connesso al DSM e confermare il processo con il pulsante <span class=\"text-danger fst-italic\">Invia</span>."
+txt_help_permissions_step_8="Nella panoramica della pianificazione attività, devi ora <span class=\"text-danger fst-italic\">evidenziare</span> l'attività appena creata con il mouse (la riga dovrebbe avere uno sfondo blu dopo l'evidenziazione), tuttavia <span class=\"text-decoration-underline\">non selezionare</span> la casella di controllo per attivare l'attività in modo permanente."
+txt_help_permissions_step_9="Ora esegui l'attività una volta premendo il pulsante <span class=\"text-danger fst-italic\">Esegui</span>."
+txt_help_permissions_step_10="Chiudi e riapri ${app_name} affinché le modifiche abbiano effetto."
+
+# Hilfe Ordnerstruktur
+# --------------------------------------------------------------
+txtDisplayFolderContent="Sei qui..."
+txtHelp="Aiuto e suggerimenti"
+txtHelpHeader="Spiegazione dei simboli"
+txtBtnReset="Reimposta ricerca e mostra pagina iniziale"
+txtFileOpen="Questo file è leggibile e scrivibile"
+txtFolderWithContent="Questa directory contiene altri dati leggibili"
+txtFolderWithoutContent="Questa directory è vuota o inaccessibile"
+txtFileIsArchive="Questo archivio è inaccessibile"
+txtFileNoReadingRights="Questo file non è leggibile"
+txtFileNoWritingRights="Questo file è solo leggibile"
+
+# Suchformular
+# --------------------------------------------------------------
+txtSearchForTerms="Cerca nel file termini, una data e/o un orario"
+txtSearch="Cerca"
+txtSearchingFor="Inserisci testo da cercare..."
+txtCaseSensitive="Distingui maiuscole/minuscole"
+txtDay="Giorno"
+txtMonth="Mese"
+txtYear="Anno"
+txtHour="Ora"
+txtMinute="Minuto"
+txtUseDate="Ricerca per data"
+txtUseTime="Ricerca per ora"
+
+# Ausgabe
+# --------------------------------------------------------------
+txtSearchResult="Risultato della ricerca"
+txtSearchResultFolder="LogAnalysis - Risultato della ricerca nella cartella"
+txtSearchResultFile="LogAnalysis - Risultato della ricerca nel file"
+txtViewFile="LogAnalysis - Visualizzazione del contenuto del file"
+txtFolder="della cartella"
+txtFile="del file"
+txtFileContent="Contenuto del file"
+txtWithLineBreaks="L'output contiene interruzioni di riga"
+txtWhitoutLineBreaks="Output senza interruzioni di riga"
+txtDeleteFileContent="Elimina contenuto del file"
+txtNoMatches="Nessuna corrispondenza!"
+txtFileIsEmpty="Il file è vuoto!"
+txtHitInLine="Trovato nella riga"
+txtHitIn="Trovato in"
+txtLine="riga"
+txtAlertInputConfirmation="Conferma input!"
+txtAlertClearEntry="Vuoi davvero eliminare il contenuto del file?"
+
+# settings.sh
+# --------------------------------------------------------------
+txt_folder_title="Impostazioni directory"
+txt_folder_access="Nascondi directory vuote o inaccessibili"
+txt_file_title="Impostazioni file"
+txt_file_access="Nascondi file che sono archivi o inaccessibili"
+txt_folder_attributes="Mostra allocazione memoria delle directory"
+txt_file_attributes="Visualizza utilizzo memoria e data ultima modifica di un file"
+txt_debug_title="Modalità debug - Opzioni di analisi errori"
+txt_debug_mode_on="Abilita console di debug"
+txt_debug_mode_off="Disabilita console di debug"
+txt_debug_membership="Appartenenza ai gruppi dell'applicazione"
+txt_debug_requests="Metodi di richiesta GET e POST"
+txt_debug_get="Metodo di richiesta GET"
+txt_debug_post="Metodo di richiesta POST"
+txt_debug_global="Variabili di ambiente globali"
+

@@ -1,0 +1,144 @@
+#!/bin/bash
+# Filename: lang_rus - coded in utf-8
+
+#                     LogAnalysis for DSM 7
+#
+#        Copyright (C) 2025 by Tommes | License GNU GPLv3
+#        Member from the  German Synology Community Forum
+#
+# Extract from  GPL3   https://www.gnu.org/licenses/gpl-3.0.html
+#                                     ...
+# This program is free software: you can redistribute it  and/or
+# modify it under the terms of the GNU General Public License as
+# published by the Free Software Foundation, either version 3 of
+# the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#
+# See the GNU General Public License for more details.You should
+# have received a copy of the GNU General Public  License  along
+# with this program. If not, see http://www.gnu.org/licenses/  !
+
+
+
+# Global language variables
+# --------------------------------------------------------------
+btnCreateNow="Создать сейчас"
+btnDeleteNow="Удалить сейчас"
+btnStartSearching="Начать поиск..."
+btnUnderstood="Понятно"
+btnCancel="Отмена"
+btnBack="Назад"
+btnSettings="Настройки"
+btnReset="Сброс"
+btnOpen="Открыть"
+btnClose="Закрыть"
+btnHistoryBack="<a href=\"javascript:history.back()\" class=\"btn btn-secondary btn-sm\">${btnBack}</a>"
+
+txt_link_help="Справка"
+txt_link_folder="Каталог"
+txt_link_system_settings="Системные настройки"
+txt_link_settings="Настройки"
+txt_link_expand_permissions="Расширить права приложения"
+txt_link_revoke_permissions="Отозвать права приложения"
+txt_button_extend_permission="Расширить права"
+txt_button_revoke_permission="Отозвать права"
+
+txt_group_status="Статус прав приложения"
+txt_group_status_false="${app_name} имеет только <span class=\"text-danger\">ограниченные</span> права приложения или системы."
+
+txtAlertSystemError="Системная ошибка!"
+txtAlertInputError="Ошибка ввода!"
+txtAlertInputConfirmation="Подтверждение ввода!"
+txtAlertProcessingError="Произошла ошибка во время обработки! Пожалуйста, повторите процесс."
+txtAlertAccessDenied_step1="Доступ к папке"
+txtAlertAccessDenied_step2="был запрещен, так как она находится вне папки <strong class=\"text-success\">/var/log</strong>."
+txtAlertOnlyAdmin="Доступ к содержимому LogAnalysis разрешен только пользователям из группы администраторов."
+txt_update_available="Доступно новое <span class=\"text-success fst-italic\">обновление</span> на GitHub."
+txt_update_from="Пожалуйста, обновите вашу версию ${app_name}"
+txt_update_to="до версии"
+
+# Hinweis Erweitern von Berechtigungen
+# --------------------------------------------------------------
+txt_help_permissions_Note="Права приложения"
+txt_help_permissions_expand_terminal="Расширить права приложения через консоль"
+txt_help_permissions_revoke_terminal="Отозвать права приложения через консоль"
+txt_help_permissions_expand_dsm="Расширить права приложения через Планировщик задач DSM"
+txt_help_permissions_revoke_dsm="Отозвать права приложения через Планировщик задач DSM"
+txt_help_permissions_step_1="Войдите в консоль вашей DiskStation как пользователь <span class=\"text-danger fst-italic\">root</span> и выполните следующую команду"
+txt_help_permissions_step_2="В DSM в разделе <span class=\"text-danger fst-italic\">Главное меню</span> > <span class=\"text-danger fst-italic\">Панель управления</span> откройте <span class=\"text-danger fst-italic\">Планировщик задач</span>."
+txt_help_permissions_step_3="В планировщике задач используйте <span class=\"text-danger fst-italic\">Создать</span> > <span class=\"text-danger fst-italic\">Запланированная задача</span> > <span class=\"text-danger fst-italic\">Пользовательский скрипт</span>."
+txt_help_permissions_step_4="В открывшемся всплывающем окне введите <span class=\"text-danger fst-italic\">Общие</span> > <span class=\"text-danger fst-italic \">Общие настройки</span> для задачи и выберите <span class=\"text-danger fst-italic\">root</span> как пользователя. Затем снимите флажок <span classS=\"text-danger fst-italic\">Включено</span>."
+txt_help_permissions_step_5="На вкладке <span class=\"text-danger fst-italic\">Настройки задачи</span> > <span class=\"text-danger fst-italic\">Выполнить команду</span> > <span class=\"text-danger fst-italic\">Пользовательский скрипт</span> введите следующую команду в текстовое поле..."
+txt_help_permissions_step_6="Подтвердите ваши записи кнопкой <span class=\"text-danger fst-italic\">OK</span> и также примите последующее предупреждение нажав <span class=\"text-danger fst-italic\">OK</span>."
+txt_help_permissions_step_7="Чтобы задача была добавлена в планировщик задач, вы должны в конце ввести пароль пользователя, который в настоящее время вошел в DSM, и подтвердить процесс кнопкой <span class=\"text-danger fst-italic\">Отправить</span>."
+txt_help_permissions_step_8="В обзоре планировщика задач вы должны теперь <span class=\"text-danger fst-italic\">выделить</span> только что созданную задачу мышью (строка должна иметь синий фон после выделения), однако <span class=\"text-decoration-underline\">не отмечайте</span> флажок для постоянной активации задачи."
+txt_help_permissions_step_9="Теперь запустите задачу один раз, нажав кнопку <span class=\"text-danger fst-italic\">Запустить</span>."
+txt_help_permissions_step_10="Закройте и снова откройте ${app_name}, чтобы изменения вступили в силу."
+
+# Hilfe Ordnerstruktur
+# --------------------------------------------------------------
+txtDisplayFolderContent="Вы находитесь здесь..."
+txtHelp="Справка и подсказки"
+txtHelpHeader="Объяснение символов"
+txtBtnReset="Сбросить поиск и показать начальную страницу"
+txtFileOpen="Этот файл доступен для чтения и записи"
+txtFolderWithContent="Этот каталог содержит другие читаемые данные"
+txtFolderWithoutContent="Этот каталог пуст или недоступен"
+txtFileIsArchive="Этот архив недоступен"
+txtFileNoReadingRights="Этот файл нельзя прочитать"
+txtFileNoWritingRights="Этот файл доступен только для чтения"
+
+# Suchformular
+# --------------------------------------------------------------
+txtSearchForTerms="Поиск в файле терминов, даты и/или времени"
+txtSearch="Поиск"
+txtSearchingFor="Введите строку поиска..."
+txtCaseSensitive="Учитывать регистр"
+txtDay="День"
+txtMonth="Месяц"
+txtYear="Год"
+txtHour="Час"
+txtMinute="Минута"
+txtUseDate="Поиск по дате"
+txtUseTime="Поиск по времени"
+
+# Ausgabe
+# --------------------------------------------------------------
+txtSearchResult="Результат поиска"
+txtSearchResultFolder="LogAnalysis - Результат поиска в папке"
+txtSearchResultFile="LogAnalysis - Результат поиска в файле"
+txtViewFile="LogAnalysis - Отображение содержимого файла"
+txtFolder="папки"
+txtFile="файла"
+txtFileContent="Содержимое файла"
+txtWithLineBreaks="Вывод содержит переносы строк"
+txtWhitoutLineBreaks="Вывод без переносов строк"
+txtDeleteFileContent="Удалить содержимое файла"
+txtNoMatches="Совпадений не найдено!"
+txtFileIsEmpty="Файл пуст!"
+txtHitInLine="Найдено в строке"
+txtHitIn="Найдено в"
+txtLine="строка"
+txtAlertInputConfirmation="Подтверждение ввода!"
+txtAlertClearEntry="Действительно удалить содержимое файла?"
+
+# settings.sh
+# --------------------------------------------------------------
+txt_folder_title="Настройки каталога"
+txt_folder_access="Скрыть пустые или недоступные каталоги"
+txt_file_title="Настройки файла"
+txt_file_access="Скрыть архивы или недоступные файлы"
+txt_folder_attributes="Показать выделение памяти каталогов"
+txt_file_attributes="Просмотр использования памяти и времени последнего изменения файла"
+txt_debug_title="Режим отладки - Параметры анализа ошибок"
+txt_debug_mode_on="Включить консоль отладки"
+txt_debug_mode_off="Отключить консоль отладки"
+txt_debug_membership="Членство в группах приложения"
+txt_debug_requests="Методы запроса GET и POST"
+txt_debug_get="Метод запроса GET"
+txt_debug_post="Метод запроса POST"
+txt_debug_global="Глобальные переменные среды"
+

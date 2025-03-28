@@ -1,0 +1,88 @@
+2025-03-28 05:00:59 In file included from /usr/include/linux/sysinfo.h:5,
+2025-03-28 05:00:59 from /usr/include/linux/kernel.h:5,
+2025-03-28 05:00:59 from /usr/include/sys/sysinfo.h:24,
+2025-03-28 05:00:59 from Source/LogAnalysis.c:3:
+2025-03-28 05:00:59 /usr/include/linux/types.h:5:10: fatal error: asm/types.h: No such file or directory
+2025-03-28 05:00:59 5 | #include <asm/types.h>
+2025-03-28 05:00:59 |          ^~~~~~~~~~~~~
+2025-03-28 05:00:59 compilation terminated.
+2025-03-28 05:28:42 In file included from /usr/include/linux/sysinfo.h:5,
+2025-03-28 05:28:42 from /usr/include/linux/kernel.h:5,
+2025-03-28 05:28:42 from /usr/include/sys/sysinfo.h:24,
+2025-03-28 05:28:42 from Source/LogAnalysis.c:3:
+2025-03-28 05:28:42 /usr/include/linux/types.h:5:10: fatal error: asm/types.h: No such file or directory
+2025-03-28 05:28:42 5 | #include <asm/types.h>
+2025-03-28 05:28:42 |          ^~~~~~~~~~~~~
+2025-03-28 05:28:42 compilation terminated.
+2025-03-28 05:30:34 In file included from /usr/include/linux/sysinfo.h:5,
+2025-03-28 05:30:34 from /usr/include/linux/kernel.h:5,
+2025-03-28 05:30:34 from /usr/include/sys/sysinfo.h:24,
+2025-03-28 05:30:34 from Source/LogAnalysis.c:3:
+2025-03-28 05:30:34 /usr/include/linux/types.h:5:10: fatal error: asm/types.h: No such file or directory
+2025-03-28 05:30:34 5 | #include <asm/types.h>
+2025-03-28 05:30:34 |          ^~~~~~~~~~~~~
+2025-03-28 05:30:34 compilation terminated.
+2025-03-28 06:59:35 In file included from /usr/include/linux/sysinfo.h:5,
+2025-03-28 06:59:35 from /usr/include/linux/kernel.h:5,
+2025-03-28 06:59:35 from /usr/include/sys/sysinfo.h:24,
+2025-03-28 06:59:35 from Source/LogAnalysis.c:3:
+2025-03-28 06:59:35 /usr/include/linux/types.h:5:10: fatal error: asm/types.h: No such file or directory
+2025-03-28 06:59:35 5 | #include <asm/types.h>
+2025-03-28 06:59:35 |          ^~~~~~~~~~~~~
+2025-03-28 06:59:35 compilation terminated.
+2025-03-28 07:40:28 In file included from /usr/include/linux/sysinfo.h:5,
+2025-03-28 07:40:28 from /usr/include/linux/kernel.h:5,
+2025-03-28 07:40:28 from /usr/include/sys/sysinfo.h:24,
+2025-03-28 07:40:28 from Source/LogAnalysis.c:3:
+2025-03-28 07:40:28 /usr/include/linux/types.h:5:10: fatal error: asm/types.h: No such file or directory
+2025-03-28 07:40:28 5 | #include <asm/types.h>
+2025-03-28 07:40:28 |          ^~~~~~~~~~~~~
+2025-03-28 07:40:28 compilation terminated.
+2025-03-28 07:46:39 In file included from /usr/include/linux/sysinfo.h:5,
+2025-03-28 07:46:39 from /usr/include/linux/kernel.h:5,
+2025-03-28 07:46:39 from /usr/include/sys/sysinfo.h:24,
+2025-03-28 07:46:39 from Source/LogAnalysis.c:3:
+2025-03-28 07:46:39 /usr/include/linux/types.h:5:10: fatal error: asm/types.h: No such file or directory
+2025-03-28 07:46:39 5 | #include <asm/types.h>
+2025-03-28 07:46:39 |          ^~~~~~~~~~~~~
+2025-03-28 07:46:39 compilation terminated.
+2025-03-28 09:27:17 In file included from /usr/include/linux/sysinfo.h:5,
+2025-03-28 09:27:17 from /usr/include/linux/kernel.h:5,
+2025-03-28 09:27:17 from /usr/include/sys/sysinfo.h:24,
+2025-03-28 09:27:17 from Source/LogAnalysis.c:3:
+2025-03-28 09:27:17 /usr/include/linux/types.h:5:10: fatal error: asm/types.h: No such file or directory
+2025-03-28 09:27:17 5 | #include <asm/types.h>
+2025-03-28 09:27:17 |          ^~~~~~~~~~~~~
+2025-03-28 09:27:17 compilation terminated.
+2025-03-28 10:49:11 In file included from /usr/include/linux/sysinfo.h:5,
+2025-03-28 10:49:11 from /usr/include/linux/kernel.h:5,
+2025-03-28 10:49:11 from /usr/include/sys/sysinfo.h:24,
+2025-03-28 10:49:11 from Source/LogAnalysis.c:3:
+2025-03-28 10:49:12 /usr/include/linux/types.h:5:10: fatal error: asm/types.h: No such file or directory
+2025-03-28 10:49:12 5 | #include <asm/types.h>
+2025-03-28 10:49:12 |          ^~~~~~~~~~~~~
+2025-03-28 10:49:12 compilation terminated.
+2025-03-28 10:50:21 In file included from /usr/include/linux/sysinfo.h:5,
+2025-03-28 10:50:21 from /usr/include/linux/kernel.h:5,
+2025-03-28 10:50:21 from /usr/include/sys/sysinfo.h:24,
+2025-03-28 10:50:21 from Source/LogAnalysis.c:3:
+2025-03-28 10:50:21 /usr/include/linux/types.h:5:10: fatal error: asm/types.h: No such file or directory
+2025-03-28 10:50:21 5 | #include <asm/types.h>
+2025-03-28 10:50:21 |          ^~~~~~~~~~~~~
+2025-03-28 10:50:21 compilation terminated.
+2025-03-28 10:51:06 In file included from /usr/include/linux/sysinfo.h:5,
+2025-03-28 10:51:06 from /usr/include/linux/kernel.h:5,
+2025-03-28 10:51:06 from /usr/include/sys/sysinfo.h:24,
+2025-03-28 10:51:06 from Source/LogAnalysis.c:3:
+2025-03-28 10:51:06 /usr/include/linux/types.h:5:10: fatal error: asm/types.h: No such file or directory
+2025-03-28 10:51:06 5 | #include <asm/types.h>
+2025-03-28 10:51:06 |          ^~~~~~~~~~~~~
+2025-03-28 10:51:06 compilation terminated.
+2025-03-28 10:54:29 In file included from /usr/include/linux/sysinfo.h:5,
+2025-03-28 10:54:29 from /usr/include/linux/kernel.h:5,
+2025-03-28 10:54:29 from /usr/include/sys/sysinfo.h:24,
+2025-03-28 10:54:29 from Source/LogAnalysis.c:3:
+2025-03-28 10:54:29 /usr/include/linux/types.h:5:10: fatal error: asm/types.h: No such file or directory
+2025-03-28 10:54:29 5 | #include <asm/types.h>
+2025-03-28 10:54:29 |          ^~~~~~~~~~~~~
+2025-03-28 10:54:29 compilation terminated.

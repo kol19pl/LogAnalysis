@@ -1,0 +1,44 @@
+2025-03-28 05:00:59 Source/LogAnalysis.c: In function ‘main’:
+2025-03-28 05:00:59 Source/LogAnalysis.c:7:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+2025-03-28 05:00:59 7 | int main(int argc, char** argv) {
+2025-03-28 05:00:59 |          ~~~~^~~~
+2025-03-28 05:28:42 Source/LogAnalysis.c: In function ‘main’:
+2025-03-28 05:28:42 Source/LogAnalysis.c:7:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+2025-03-28 05:28:42 7 | int main(int argc, char** argv) {
+2025-03-28 05:28:42 |          ~~~~^~~~
+2025-03-28 05:30:34 Source/LogAnalysis.c: In function ‘main’:
+2025-03-28 05:30:34 Source/LogAnalysis.c:7:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+2025-03-28 05:30:34 7 | int main(int argc, char** argv) {
+2025-03-28 05:30:34 |          ~~~~^~~~
+2025-03-28 06:59:35 Source/LogAnalysis.c: In function ‘main’:
+2025-03-28 06:59:35 Source/LogAnalysis.c:7:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+2025-03-28 06:59:35 7 | int main(int argc, char** argv) {
+2025-03-28 06:59:35 |          ~~~~^~~~
+2025-03-28 07:40:28 Source/LogAnalysis.c: In function ‘main’:
+2025-03-28 07:40:28 Source/LogAnalysis.c:7:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+2025-03-28 07:40:28 7 | int main(int argc, char** argv) {
+2025-03-28 07:40:28 |          ~~~~^~~~
+2025-03-28 07:46:39 Source/LogAnalysis.c: In function ‘main’:
+2025-03-28 07:46:39 Source/LogAnalysis.c:7:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+2025-03-28 07:46:39 7 | int main(int argc, char** argv) {
+2025-03-28 07:46:39 |          ~~~~^~~~
+2025-03-28 09:27:18 Source/LogAnalysis.c: In function ‘main’:
+2025-03-28 09:27:18 Source/LogAnalysis.c:7:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+2025-03-28 09:27:18 7 | int main(int argc, char** argv) {
+2025-03-28 09:27:18 |          ~~~~^~~~
+2025-03-28 10:49:12 Source/LogAnalysis.c: In function ‘main’:
+2025-03-28 10:49:12 Source/LogAnalysis.c:7:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+2025-03-28 10:49:12 7 | int main(int argc, char** argv) {
+2025-03-28 10:49:12 |          ~~~~^~~~
+2025-03-28 10:50:22 Source/LogAnalysis.c: In function ‘main’:
+2025-03-28 10:50:22 Source/LogAnalysis.c:7:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+2025-03-28 10:50:22 7 | int main(int argc, char** argv) {
+2025-03-28 10:50:22 |          ~~~~^~~~
+2025-03-28 10:51:06 Source/LogAnalysis.c: In function ‘main’:
+2025-03-28 10:51:06 Source/LogAnalysis.c:7:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+2025-03-28 10:51:06 7 | int main(int argc, char** argv) {
+2025-03-28 10:51:06 |          ~~~~^~~~
+2025-03-28 10:54:48 Source/LogAnalysis.c: In function ‘main’:
+2025-03-28 10:54:48 Source/LogAnalysis.c:7:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+2025-03-28 10:54:48 7 | int main(int argc, char** argv) {
+2025-03-28 10:54:48 |          ~~~~^~~~

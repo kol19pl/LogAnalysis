@@ -1,0 +1,7 @@
+[app]
+app_name	=	"LogAnalysis"
+adduser_true	= 	"Ausführung erfolgreich. LogAnalysis wurde der Gruppe [ log ] hinzugefügt. Dadurch ist ein erweiterter Zugriff auf Ordner und Dateien innerhalb des Protokollordner /var/log möglich."
+adduser_exists	=	"Vorgang abgebrochen. LogAnalysis ist bereits Mitglied der Gruppe [ log ]."
+deluser_true	= 	"Ausführung erfolgreich. LogAnalysis wurde aus der Gruppe [ log ] entfernt. Dadurch ist der Zugriff auf Ordner und Dateien innerhalb des Protokollordner /var/log noch noch eingeschränkt möglich."
+deluser_notexist	=	"Vorgang abgebrochen. LogAnalysis ist kein Mitglied der Gruppe [ log ]."
+groupuser_error	=	"Ein Fehler ist aufgetreten. Überprüfen Sie Ihre Eingaben und führen den Vorgang erneut aus."
